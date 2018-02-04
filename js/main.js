@@ -184,5 +184,8 @@ const renderPie = (month, initialRender = false) => {
 	makeBalloons(data[month], month)
 }
 
-/* Initial render */
-renderPie(d3.keys(data)[0], true)
+document.addEventListener("DOMContentLoaded", () => {
+	console.log('Page loaded')
+	/* Initial render */
+	renderPie(d3.keys(data)[0], true)
+}

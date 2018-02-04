@@ -188,4 +188,4 @@ document.addEventListener("DOMContentLoaded", () => {
 	console.log('Page loaded')
 	/* Initial render */
 	renderPie(d3.keys(data)[0], true)
-}
+})

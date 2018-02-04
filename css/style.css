@@ -1,8 +1,44 @@
+html {
+	font-size: 12px;
+}
+
+body {
+	background: lightgray;
+	font-family: 'Raleway', sans-serif;
+}
+
+.title {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+select {
+	margin-left: 2rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+option {
+	font-family: 'Raleway', sans-serif;
+}
+
+svg {
+	display: block;
+	margin: auto;
+}
+
 .arc text {
-  font: 10px sans-serif;
+  font-size: 1.2rem;
   text-anchor: middle;
 }
 
 .arc path {
   stroke: #fff;
 }
+
+.banner {
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	margin-top: 2rem;
+}
+
